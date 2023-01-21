@@ -24,7 +24,7 @@ export default function Hero({}: Props) {
         >        
             <img
                 className='relative rounded-full h-32 w-32 mx-auto' 
-                src="https://scontent.flis3-1.fna.fbcdn.net/v/t39.30808-6/309680341_5800611829957440_3536387482233508831_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hsPWF1fDFg0AX-lNuLS&_nc_ht=scontent.flis3-1.fna&oh=00_AfBjTHYstQ5GpSxIcbiEKwgXcx2WU_Q2Og7YAXmkslGM3w&oe=63C65B18" alt=""/>
+                src="./profile.jpeg" alt=""/>
         </motion.div>
 
         <div className='z-20'>

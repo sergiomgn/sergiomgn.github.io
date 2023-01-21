@@ -11,15 +11,16 @@ export default function Experience({}: Props) {
       whileInView={{opacity: 1}}
       transition={{duration: 1.5}}
       className="flex relative flex-col h-screen overflow-hidden text-lft items-center md:flex-row
-      max-w-full px-10 justify-evenly mx-auto">
+      max-w-full px-10 justify-evenly mx-auto container">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Experience</h3>
+      
+        <div className='flex w-full space-x-5 overflow-x-scroll py-100 p-10 snap-x snap-mandatory z-1'>
+          <ExperinenceCard />
+          <ExperinenceCard />
+          <ExperinenceCard />
+          <ExperinenceCard />
+        </div>
 
-      <div className='flex w-full space-x-5 overflow-scroll p-10 snap-x snap-mandatory'>
-        <ExperinenceCard />
-        <ExperinenceCard />
-        <ExperinenceCard />
-        <ExperinenceCard />
-      </div>
     </motion.div>
   )
 }

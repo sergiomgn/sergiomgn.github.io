@@ -19,7 +19,7 @@ export default function About({}: Props) {
                     opacity: 1
                 }}
                 viewport={{ once: true }}
-                src='https://scontent.flis3-1.fna.fbcdn.net/v/t39.30808-6/309680341_5800611829957440_3536387482233508831_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hsPWF1fDFg0AX-lNuLS&_nc_ht=scontent.flis3-1.fna&oh=00_AfBjTHYstQ5GpSxIcbiEKwgXcx2WU_Q2Og7YAXmkslGM3w&oe=63C65B18'
+                src='./Hero.jpg'
                 className='xs:mb-20 w-32 h-32 top-48 flex-shrink-0 rounded-full object-cover md:bottom-[30%] md:rounderd-large md:mb-0 md:w-64 md:h-96 md:rounded-lg xl:w-[28%] xl:h-[60%] absolute md:left-40'
             />
             <motion.div 
@@ -29,7 +29,7 @@ export default function About({}: Props) {
                 whileInView={{ opacity: 1 }}
                 transition={{duration: 0.77}}
                 viewport={{ once: true}}
-                className='absolute tracking-wide px-4 md:left-[450px] xl:left-[560px] bottom-[20%] sm:bottom-32 xs:text-xs md:top-[244px] text-gray-500 md:right-40 text-justify sm:text-lg md:text-xl' >
+                className='absolute tracking-wide px-4 md:left-[450px] xl:left-[560px] bottom-[12%] sm:bottom-32 xs:text-xs md:top-[244px] text-gray-500 md:right-40 text-justify sm:text-lg md:text-xl overflow-hidden' >
                 <p>
                     My name is Sérgio Neves, I am a Software Developer based in Portugal working at <a className="decoration underline " href='https://www.criticaltechworks.com/' >Critical Techworks</a>, 
                     applying my skills to create innovative solutions.
