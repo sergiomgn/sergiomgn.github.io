@@ -27,7 +27,7 @@ export default function ExperinenceCard({}: Props) {
                 </div>
                 <div className='flex space-x-2 my-2 py-2'>
                     <img className='md:h-10 md:w-10 h-8 w-8 rounded-full' src="./python.svg" alt="" />
-                    <img className='md:h-10 md:w-10 h-8 w-8 rounded-full' src="./python.svg" alt="" />
+                    <img className='md:h-10 md:w-10 h-8 w-8 rounded-full' src="./github.svg" alt="" />
                     <img className='md:h-10 md:w-10 h-8 w-8 rounded-full' src="./python.svg" alt="" />
                 </div>
                 <p className='py-0 text-md md:text-sm md:py-1 uppercase text-gray-400'> Started mar - Ended ...</p>
