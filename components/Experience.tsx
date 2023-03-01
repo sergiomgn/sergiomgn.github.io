@@ -4,6 +4,11 @@ import ExperinenceCard from './ExperinenceCard';
 
 type Props = {}
 
+enum techStack {
+  Python = './python.svg',
+  Github = './github.svg'
+}
+
 export default function Experience({}: Props) {
   return (
     <motion.div 
@@ -15,10 +20,8 @@ export default function Experience({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Experience</h3>
       
         <div className='flex w-full space-x-5 overflow-x-scroll py-100 p-10 snap-x snap-mandatory z-1'>
-          <ExperinenceCard />
-          <ExperinenceCard />
-          <ExperinenceCard />
-          <ExperinenceCard />
+          <ExperinenceCard companyName="Critical Techworks" companyLogo='./ctw_logo.svg' companyRole='CI & Build Developer' techStack={[techStack.Python, techStack.Github]} date={{"start": "Jun 2021", "end": "Present"}}/>
+          <ExperinenceCard companyName="Critical Techworks" companyLogo='./ctw_logo.svg' companyRole='CI & Build Developer' techStack={[techStack.Python, techStack.Github]} date={{"start": "Sept. 2020","end": "Jun. 2021" }}/>
         </div>
 
     </motion.div>
