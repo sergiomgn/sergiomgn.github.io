@@ -20,14 +20,10 @@ function Skills({}: Props) {
       </h3>
 
       <div className="absolute grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill skillImg="./assets/tech_stack/mongodb.svg"/>
+        <Skill skillImg="./assets/tech_stack/mongodb.svg"/>
+        <Skill skillImg="./assets/tech_stack/mongodb.svg"/>
+        <Skill skillImg="./assets/tech_stack/mongodb.svg"/>
         
       </div>
     </motion.div>
