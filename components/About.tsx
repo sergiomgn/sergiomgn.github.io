@@ -41,7 +41,7 @@ export default function About({}: Props) {
           >
             Critical Techworks
           </a>
-          , applying my skills to create innovative solutions. I hold a Master's
+          , applying my skills to create innovative solutions. I hold a Master&apos;s
           degree in Computer and Electrotecnical Engineering from Instituto
           Superior Técnico.
         </p>

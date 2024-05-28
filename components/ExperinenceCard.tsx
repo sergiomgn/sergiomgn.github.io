@@ -11,11 +11,11 @@ type Props = {
 };
 
 export default function ExperinenceCard(props: Props) {
-  const stack = props.techStack.map((img) => (
-    <img className="md:h-10 md:w-10 h-8 w-8 rounded-full" src={img} alt="" />
+  const stack = props.techStack.map((img, index) => (
+    <img key={index} className="md:h-10 md:w-10 h-8 w-8 rounded-full" src={img} alt=""/>
   ));
 
-  const summaryPoints = props.summaryPoints.map((point) => <li>{point}</li>);
+  const summaryPoints = props.summaryPoints.map((point, index) => <li key={index}>{point}</li>);
 
   return (
     <article

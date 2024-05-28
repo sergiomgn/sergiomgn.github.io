@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/sergiomgn.github.io",
-  output: "export",
+  output: "export", // Enables static generation
   reactStrictMode: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
